@@ -64,7 +64,7 @@ footer {
     padding: 1rem;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 50%;
 }
 
 form {
@@ -132,4 +132,5 @@ thead {
 
 td img {
     border-radius: 5px;
+
 }
