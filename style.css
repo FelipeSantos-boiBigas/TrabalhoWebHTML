@@ -1,7 +1,7 @@
 body {
     font-family: 'Pacifico', cursive;
-    margin: 100;
-    padding: 100;
+    margin: 0;
+    padding: 0;
     background-color: #BFC2C3;
     color: #000;
     text-align: justify;
@@ -47,7 +47,7 @@ nav a:hover {
 
 main {
     padding: 20px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 30px auto;
     background-color: white;
     border-radius: 10px;
@@ -176,6 +176,7 @@ thead {
 td img {
     border-radius: 5px;
 }
+
 
 
 
