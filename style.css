@@ -74,7 +74,7 @@ footer {
 }
 
 form {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 25px;
     border: 1px solid #BFC2C3;
@@ -176,6 +176,7 @@ thead {
 td img {
     border-radius: 5px;
 }
+
 
 
 
