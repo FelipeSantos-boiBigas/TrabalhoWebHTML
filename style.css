@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #BFC2C3;
@@ -19,7 +19,7 @@ h1 {
     margin: 0;
     letter-spacing: 1px;
     text-align: center;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Anton', Arial, sans-serif;
 }
 
 nav {
@@ -61,7 +61,7 @@ h2 {
     border-bottom: 3px solid #002D6E;
     padding-bottom: 10px;
     margin-bottom: 25px;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Anton', Arial, sans-serif;
 }
 
 footer {
@@ -176,4 +176,5 @@ thead {
 td img {
     border-radius: 5px;
 }
+
 
