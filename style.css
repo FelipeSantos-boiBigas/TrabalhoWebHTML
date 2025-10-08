@@ -1,7 +1,7 @@
 body {
     font-family: 'Pacifico', cursive;
-    margin: 0;
-    padding: 0;
+    margin: 100;
+    padding: 100;
     background-color: #BFC2C3;
     color: #000;
     text-align: justify;
@@ -176,6 +176,7 @@ thead {
 td img {
     border-radius: 5px;
 }
+
 
 
 
