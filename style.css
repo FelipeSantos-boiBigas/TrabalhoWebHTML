@@ -178,15 +178,12 @@ td img {
     border-radius: 5px;
 }
 
-/* Classes novas adicionadas */
-
-/* Classe que adiciona sombra leve ao elemento */
 .sombra-suave {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Classe que adiciona uma borda à esquerda sutil e espaçamento interno */
 .borda-subtil {
     border-left: 4px solid #00689D;
     padding-left: 12px;
 }
+
