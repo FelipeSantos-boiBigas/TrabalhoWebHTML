@@ -7,7 +7,8 @@ body {
     text-align: justify;
 }
 
-header {
+/* Classe para o header */
+.header-principal {
     background-color: #002D6E;
     color: white;
     padding: 1.5rem;
@@ -15,21 +16,24 @@ header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
+/* Ex: título dentro do header — você pode manter h1 ou usar .titulo-principal */
+.header-principal h1 {
     margin: 0;
     letter-spacing: 1px;
     text-align: center;
     font-family: 'Pacifico', cursive;
 }
 
-nav {
+/* Classe para nav */
+.menu-principal {
     background-color: #00689D;
     overflow: hidden;
     text-align: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-nav a {
+/* Classe para links do menu */
+.menu-principal .menu-link {
     display: inline-block;
     color: white;
     text-align: center;
@@ -39,13 +43,14 @@ nav a {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-nav a:hover {
+.menu-principal .menu-link:hover {
     background-color: #002D6E;
     transform: scale(1.05);
     border-radius: 4px;
 }
 
-main {
+/* Classe para o main / conteúdo */
+.conteudo-principal {
     padding: 20px;
     max-width: 1200px;
     margin: 30px auto;
@@ -55,7 +60,8 @@ main {
     text-align: justify;
 }
 
-h2 {
+/* Classe para seção catálogo */
+.catalogo-de-materias h2 {
     text-align: center;
     color: #00689D;
     border-bottom: 3px solid #002D6E;
@@ -64,7 +70,14 @@ h2 {
     font-family: 'Pacifico', cursive;
 }
 
-footer {
+/* Você também pode definir .catalogo-de-materias para estilizar o contêiner da seção inteira */
+.catalogo-de-materias {
+    margin-bottom: 2rem;
+    /* outros estilos se quiser */
+}
+
+/* Rodapé */
+.rodape {
     background-color: #000000;
     color: #BFC2C3;
     text-align: center;
@@ -73,7 +86,8 @@ footer {
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
 }
 
-form {
+/* Formulário */
+.form-contato {
     max-width: 700px;
     margin: 0 auto;
     padding: 25px;
@@ -84,6 +98,7 @@ form {
     text-align: justify;
 }
 
+/* label, ul, li permanecem como seletores de elemento */
 label {
     display: block;
     margin-bottom: 6px;
@@ -116,6 +131,7 @@ li::marker {
     font-size: 1.2em;
 }
 
+/* inputs, textarea */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -138,8 +154,9 @@ textarea:focus {
     box-shadow: 0 0 6px rgba(128, 128, 128, 0.2);
 }
 
-input[type="submit"],
-button {
+/* Botões / submit (classe) */
+.btn-acao,
+input[type="submit"] {
     background-color: #00689D;
     color: white;
     padding: 10px 20px;
@@ -150,8 +167,8 @@ button {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-input[type="submit"]:hover,
-button:hover {
+.btn-acao:hover,
+input[type="submit"]:hover {
     background-color: #002D6E;
     transform: scale(1.05);
 }
@@ -174,13 +191,5 @@ thead {
 }
 
 td img {
-    border-radius: 5px;
+    border-radius: 5px;
 }
-
-
-
-
-
-
-
-
