@@ -7,8 +7,7 @@ body {
     text-align: justify;
 }
 
-/* Classe para o header */
-.header-principal {
+header {
     background-color: #002D6E;
     color: white;
     padding: 1.5rem;
@@ -16,24 +15,21 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Ex: título dentro do header — você pode manter h1 ou usar .titulo-principal */
-.header-principal h1 {
+h1 {
     margin: 0;
     letter-spacing: 1px;
     text-align: center;
     font-family: 'Pacifico', cursive;
 }
 
-/* Classe para nav */
-.menu-principal {
+nav {
     background-color: #00689D;
     overflow: hidden;
     text-align: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* Classe para links do menu */
-.menu-principal .menu-link {
+nav a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -43,14 +39,13 @@ body {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.menu-principal .menu-link:hover {
+nav a:hover {
     background-color: #002D6E;
     transform: scale(1.05);
     border-radius: 4px;
 }
 
-/* Classe para o main / conteúdo */
-.conteudo-principal {
+main {
     padding: 20px;
     max-width: 1200px;
     margin: 30px auto;
@@ -60,8 +55,7 @@ body {
     text-align: justify;
 }
 
-/* Classe para seção catálogo */
-.catalogo-de-materias h2 {
+h2 {
     text-align: center;
     color: #00689D;
     border-bottom: 3px solid #002D6E;
@@ -70,14 +64,7 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
-/* Você também pode definir .catalogo-de-materias para estilizar o contêiner da seção inteira */
-.catalogo-de-materias {
-    margin-bottom: 2rem;
-    /* outros estilos se quiser */
-}
-
-/* Rodapé */
-.rodape {
+footer {
     background-color: #000000;
     color: #BFC2C3;
     text-align: center;
@@ -86,8 +73,7 @@ body {
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Formulário */
-.form-contato {
+form {
     max-width: 700px;
     margin: 0 auto;
     padding: 25px;
@@ -98,7 +84,6 @@ body {
     text-align: justify;
 }
 
-/* label, ul, li permanecem como seletores de elemento */
 label {
     display: block;
     margin-bottom: 6px;
@@ -131,7 +116,6 @@ li::marker {
     font-size: 1.2em;
 }
 
-/* inputs, textarea */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -154,9 +138,8 @@ textarea:focus {
     box-shadow: 0 0 6px rgba(128, 128, 128, 0.2);
 }
 
-/* Botões / submit (classe) */
-.btn-acao,
-input[type="submit"] {
+input[type="submit"],
+button {
     background-color: #00689D;
     color: white;
     padding: 10px 20px;
@@ -167,8 +150,8 @@ input[type="submit"] {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.btn-acao:hover,
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+button:hover {
     background-color: #002D6E;
     transform: scale(1.05);
 }
@@ -191,5 +174,5 @@ thead {
 }
 
 td img {
-    border-radius: 5px;
+    border-radius: 5px;
 }
