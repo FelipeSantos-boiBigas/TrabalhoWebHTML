@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intelectus</title>
     <link rel="stylesheet" href="style.css">
-</head>
+
+<link id="theme-link" rel="stylesheet" href="theme-light.css"></head>
 <body>
     <header class="cabecalho">
         <h1>Bem-vindo ao Intelectus</h1>
@@ -20,6 +21,7 @@
         <a href="equipe.html">Equipe</a>
     </nav>
     <main>
+        <button id="toggle-tema" type="button" aria-label="Alternar tema">Tema Escuro</button>
         <form action="#" method="post">
             <label for="id_nome">Nome do Estudante:</label>
             <input type="text" id="id_nome" name="nome" required>
@@ -51,6 +53,8 @@
         <p>© Intelectus — 2025 Site de Estudos (Projeto Fictício para Trabalho Acadêmico de Desenvolvimento Web em
                 HTML5, CSS, JavaScript e PHP)</p>
         </footer>
+
+<script src="tema.js" defer></script>
 </body>
 
 </html>
