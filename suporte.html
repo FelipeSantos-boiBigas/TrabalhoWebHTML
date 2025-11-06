@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intelectus | Suporte</title>
     <link rel="stylesheet" href="style.css">
-</head>
+
+<link id="theme-link" rel="stylesheet" href="theme-light.css"></head>
 <body>
     <header class="cabecalho">
         <h1>Intelectus</h1>
@@ -19,6 +20,7 @@
         <a href="equipe.html">Equipe</a>
     </nav>
     <main id="conteudo-principal">
+        <button id="toggle-tema" type="button" aria-label="Alternar tema">Tema Escuro</button>
         <p class="destaque">No <strong>Intelectus</strong>, queremos que sua experiência de estudo seja sempre a melhor possível. Por isso, você
             pode usar esta página para:</p>
         <ul>
@@ -30,9 +32,6 @@
         <form action="#" method="post" autocomplete="on">
             <p><label for="inome">Nome:</label></p>
             <input type="text" name="nome" id="inome" required >
-
-            <label for="id_email">E-mail do cliente:</label><br>
-            <input type="text" name="email" id="id_email"><br><br>
 
             <p><label for="iemail">Email:</label></p>
             <input type="email" name="email" id="iemail" required>
@@ -60,5 +59,7 @@
 
     <script src="js/script.js"></script>
     
+<script src="tema.js" defer></script>
+<script src="validacao.js" defer></script>
 </body>
 </html>
